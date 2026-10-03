@@ -158,7 +158,7 @@
   function renderCallout(type, title, lines, context) {
     const supportedTypes = new Set(["note", "warning", "success"]);
     const kind = supportedTypes.has(type) ? type : "note";
-    const defaultTitle = kind === "warning" ? "Heads up" : kind === "success" ? "Good to know" : "Note";
+    const defaultTitle = kind === "warning" ? "Note" : kind === "success" ? "Good to know" : "Note";
     return `<aside class="callout callout--${kind}"><div class="callout__body"><strong class="callout__title">${inline(title || defaultTitle, context)}</strong>${renderBlocks(lines.join("\n"), context)}</div></aside>`;
   }
 
