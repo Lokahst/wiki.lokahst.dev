@@ -6,7 +6,8 @@
       id: "general",
       title: "Lokahst",
       pages: [
-        { path: "home", title: "Wiki home" }
+        { path: "home", title: "Home" },
+        { path: "note", title: "Note" }
       ]
     },
     {
