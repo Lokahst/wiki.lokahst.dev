@@ -1,5 +1,5 @@
 ---
-title: Lokahst.dev - note
+title: Note
 description: Informations about this project and development
 updated: Oct 4, 2026
 ---
