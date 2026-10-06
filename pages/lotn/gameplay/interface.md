@@ -1,7 +1,7 @@
 ---
 title: Interface
 description: Scoreboard, quest bar, action bars, and mob holograms
-updated: October 5, 2026
+updated: October 6, 2026
 ---
 
 ## Scoreboard
@@ -9,21 +9,22 @@ updated: October 5, 2026
 The scoreboard is enabled by default and refreshes every `20` ticks. Score numbers are hidden.
 
 ```text
-&a★ &lCharacter
-&fName: &7{character_name}
-&fMoney: &7◈{balance}
-
-&7★ &lPhysical
-&fArmor: &e{armor_rating}
-&fCarry: &e{weight}
-
-&9★ &lLevel
-&fLevel: &7{level}
-&fXP: &7{xp}/{xp_required}
-
-&d★ &lWorld
-&fDate: &7{date}
-&fTemp: &7{temp_c}
+lines:
+  - "&a&lCharacter"
+  - "&fName: &7{character_name}"
+  - "&fCoins: &e{balance}"
+  - "&8&m━━━━━━━━━━━━━━━━━━━━"
+  - "&7&lEquipment"
+  - "&fArmor Rate: &e{armor_rating}"
+  - "&fCarrying: &e{weight}"
+  - "&8&m━━━━━━━━━━━━━━━━━━━━"
+  - "&9&lProgression"
+  - "&fLevel: &b{level}"
+  - "&fExperience: &7{xp}&8/&7{xp_required}"
+  - "&8&m━━━━━━━━━━━━━━━━━━━━"
+  - "&d&lWorld"
+  - "&fDate: &7{date}"
+  - "&fTemp: &7{temp_c}°C"
 ```
 
 ## Quest Bar
