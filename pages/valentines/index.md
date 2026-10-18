@@ -1,7 +1,7 @@
 ---
 title: Valentines
 description: Original Valentines plugin
-updated: July 19, 2026
+updated: Oct 18, 2026
 ---
 
 This plugin is now open-source on github.
