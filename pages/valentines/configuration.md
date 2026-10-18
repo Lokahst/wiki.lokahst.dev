@@ -1,14 +1,14 @@
 ---
 title: Configuration
 description: Default settings and messages. If you have any problem with config, you can try this one.
-updated: July 19, 2026
+updated: Oct 18, 2026
 ---
 
 :::spoiler config.yml
 ```yml
 # ╔════════════════════════════════════════════════════════════════════╗
 # ║                      VALENTINES PLUGIN CONFIG                      ║
-# ║                       Updated: July 16, 2026                       ║
+# ║                       Updated: Oct 18, 2026                        ║
 # ╚════════════════════════════════════════════════════════════════════╝
 
 # ╔════════════════════════════════════════════════════════════════════╗
@@ -144,7 +144,7 @@ placeholderapi:
 # ║                      VERSION CHECKER SETTINGS                      ║
 # ╚════════════════════════════════════════════════════════════════════╝
 
-config-version: "2.0.1"
+config-version: "2.0.3"
 version-checker:
   enabled: true
   check-on-startup: true
