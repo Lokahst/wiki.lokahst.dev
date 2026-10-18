@@ -1,7 +1,7 @@
 ---
 title: Lokahst.dev - wiki
 description:
-updated: Oct 2, 2026
+updated: Oct 18, 2026
 ---
 
 For some plugins, it may take some time to update wiki after plugin's update so be aware.
