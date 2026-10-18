@@ -1,5 +1,5 @@
 ---
-title: Note
+title: Information
 description: Informations about this project and development
 updated: Oct 4, 2026
 ---
@@ -213,7 +213,7 @@ Where a project contains third-party components, those components are not claime
 **© 2026-Present Lokahst.dev - All rights reserved where applicable.**<br>
 **© 2021-2026 Wejkey - All rights reserved where applicable.**
 
-Developed under the **Lokahst** project by **Wejkey**.
+© 2026 by **Wejkey** under project *Lokahst*.
 <br>
 
 *- Wejkey*
