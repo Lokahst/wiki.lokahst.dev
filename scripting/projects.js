@@ -7,7 +7,7 @@
       title: "Lokahst",
       pages: [
         { path: "home", title: "Home" },
-        { path: "note", title: "Note" }
+        { path: "informations", title: "Informations" }
       ]
     },
     {
