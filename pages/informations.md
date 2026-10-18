@@ -1,114 +1,88 @@
 ---
-title: Information
+title: Informations
 description: Informations about this project and development
-updated: Oct 4, 2026
+updated: Oct 18, 2026
 ---
 
-# Information
+# 1. Development informations
 
-Welcome to the official information page for **Lokahst.dev**.
+This is official information page for Lokahst.dev project.
 
-This page exists to provide complete overview of the Lokahst project, its developer, the projects created under it, the philosophy behind development, the use of artificial intelligence, the inspirations, and the rules regarding the use and redistribution of the project's work.
+Lokahst.dev is an independent development project focused on Minecraft plugins. This page provides informations about its developer, projects, use of artificial intelligence, statistics, and policies regarding the use of original work.
 
----
-
-## What is Lokahst.dev?
-
-**Lokahst.dev** is an independent development project focused on Minecraft plugins and mods.
-
-Lokahst.dev is not a large development studio, corporation, publisher, or commercial game company. It is an independent development project by **Wejkey**, who serves as the main developer.
-
-Some projects may be simple experiments. Others may become long-term projects with hundreds of individual components.
-
-The development process is intentionally iterative. Features are added, tested, redesigned, replaced, optimized, and sometimes completely removed when they no longer fit the direction of a project.
+Projects range from small experiments to long-term development efforts, involving hundreds of individual components.
 
 ---
 
-# The Developer
-## Wejkey
+## 1.1 The Developer
 
-The primary developer behind Lokahst.dev.
+**Wejkey** is the one and only developer behind Lokahst project. 
 
-*"A Few years of knowledge and experiments. Some know me and some don't. This project's past will be forgotten and will be focused on present and future."*
+I have few years of knowledge. Created plugins and test-servers for specific events.
 
----
-
-# Legends of the North
-## What is it?
-
-**Legends of the North**, commonly abbreviated as **LOTN**, is Minecraft RPG/MMORPG-inspired plugin developed under the Lokahst project.
-
-The plugin contains or is planned to contain systems such as:
-
-* Character progression
-* Races
-* Skills
-* Abilities
-* Shouts
-* Quests
-* Mob tiers
-* Enchantments
-* RPG-style progression
-* Custom gameplay mechanics
-* Player/Character development
-* Configuration-driven systems
+*Name "Lokahst" is not a individual person, it is the name of this project since June 2026.*
 
 ---
 
-# Inspiration
+# 2. Projects
 
-Heavily inspired by **The Elder Scrolls V: Skyrim** (TESV:S). This influence can be seen in several parts of the plugin, including the character progression system, races, skills, and especially the Shouts system. 
-There are multiple sources of inspiration worth mentioning but as of right now, TESV:S is the biggest inspiration for this project.
+## 2.1 Legends of the North
 
----
+Legends of the North, commonly abbreviated as LotN/LOTN, is a Minecraft RPG/MMORPG-inspired plugin mainly inspired by "The Elder Scrolls V: Skyrim".
 
-# Development of LOTN
+Including:
+- Races, skills
+- Abilities and shouts
+- Quests
+- Mob tiers, bosses and custom names
+- Enchantments
+- Detailed configuration
 
-Development of Legends of the North started in late June 2026.
+Development began in late June 2026. You can even check first version [here](https://modrinth.com/plugin/lotn/version/0.0.0-EarlyAccess.1).
 
-At first, LOTN was a small project with a few visual effects and a basic GUI system. While it was still in Early Access, new functions and mechanics were added almost every day, gradually turning it into a much larger and more complex plugin.
+This plugin is still in development. There will be many more functions and optimizations for newest versions, but it needs time.
 
-As the project grew, new systems became very time-consuming to develop and maintain. For example, the quest system took around a week to make because of the amount of testing, recoding, bugs, and errors that had to be dealt with. Over time, the plugin's architecture was improved and divided into separate modules. This makes individual systems easier to maintain and fix without causing problems across dozens of unrelated files.
+### 3. Statistics
 
-Development is now significantly easier than it was in the early stages, but larger and more complex features still require time to design, implement, and test.
+Be aware that each plugin have its own statistics on bStats.
 
----
+bStats is collecting informations about usage of each plugin such as Servers using specific plugin, players count, Minecraft version, server software, plugin version, core count, system arch, os, server location, and java version.
 
-# Artificial Intelligence and development
-## Transparency
-
-Artificial Intelligence has been and may continue to be used during the development of Lokahst.dev projects.
-
-This information is intentionally disclosed because AI-assisted development has become increasingly common, while there is often confusion about what "AI-assisted" actually means.
-
-AI is treated as a **supporting development tool**, not as an independent developer or creator of the project.
-
-AI may be used for tasks including:
-
-* Problem solving
-* Debugging assistance
-* Creating ideas
-* Documentation assistance
-* Generating illustrative images
-
-However, this does not mean that the entire project is generated automatically by AI (or VibeCoded). The architecture, gameplay design, testing, and implementation remain part of the developer-controlled development process.
+These informations are very useful for development of all projects (or projects using this function). You can check all statistics in category Links.
 
 ---
 
-## Illustrative media
+## 4. Artificial Intelligence
 
-AI may also be used to create **illustrative images** associated with projects. Such images are intended for presentation as you can see on Modrinth's page as background of the plugin.
-AI is not used to generate videos, GIFs, or in-game gameplay footage.
+Artificial intelligence is used as supporting tool in development and not actual(major) development of projects.
+
+AI may assist with:
+- Problem solving and debugging
+- Brainstorming and feature design
+- Documentation
+- Illustrative image generation
+
+AI assistance does not mean that every aspect of a project is generated automatically. Project direction, feature selection, testing, review, and release decisions remain under the developer's control.
+
+AI Assistance does not mean that every part of project is generated (VibeCoded) by AI. It is used only for minor things as described above.
 
 ---
 
-# A note to developers and content creators
-## Do not copy, steal, or redistribute this project as your own
+## 4. Development time
+
+It is easy for people to just make Minecraft plugins, and they are more and more common. But in this project AI is not used as major assistance.
+
+Developing each version can take anywhere between **2-12** or even more hours. From ideas, to actual coding, fixing problems, multiple testings.
+
+---
+
+# 5. Terms & Use
+
+## 5.1 Copying, redistributing and use
 
 If you are another developer, server owner, content creator, or someone interested in building a similar project, please understand the difference between **inspiration** and **copying**.
 
 You are welcome to:
-
 * be inspired by ideas
 * create your own RPG plugin
 * learn from publicly visible behavior and create your own implementation
@@ -116,7 +90,6 @@ You are welcome to:
 What you are **not** welcome to do is take the project's source code, documentation, assets, configurations, or other original work and redistribute them as your own.
 
 Do not:
-
 * remove authorship information and publish the work under another name
 * take the project, rename it, change a few variables, and present it as an original creation
 * upload copies of the project to another platform while pretending to be its developer
@@ -128,17 +101,7 @@ For example, taking the source code, feeding it into an AI system, asking the AI
 
 ---
 
-## Inspiration is different from duplication
-
-Many ideas in software cannot realistically belong to one developer. The existence of concepts does not prevent other developers from creating their own versions. 
-
-What distinguishes an original project is the **implementation, combination of systems, original code, design decisions, assets, documentation, and creative execution**.
-
-You can be inspired by LOTN. Create something that has similar goals. Create an RPG plugin with similar categories of features. But you should not copy the project's implementation or represent its work as your own.
-
----
-
-# Independence and affiliations
+## 5.2 Independence and affiliations
 
 *Lokahst project* and/or *Legends of the North* is an **independent project**.
 
@@ -157,44 +120,7 @@ References to Skyrim, The Elder Scrolls, Minecraft, or other third-party propert
 
 ---
 
-# Development time and effort
-
-Development time is not limited to writing code.
-
-Work on Lokahst.dev projects can include:
-
-* Programming
-* Debugging
-* Testing
-* Research
-* Planning
-* Designing
-* Refactoring
-* Documentation
-* Configuration
-* Server testing
-* Compatibility testing
-* Performance investigation
-* Error handling
-* User feedback
-* Release preparation
-* Project maintenance
-* Website development
-* Asset preparation
-
----
-
-# Future development
-
-Lokahst.dev is an ongoing project and there is no expectation that the current feature set represents the final state of the projects.
-
-New projects may be created, existing may receive new features or may eventually be discontinued. 
-
-LOTN in particular is intended to remain an evolving RPG project.
-
----
-
-# Copyright and ownership
+## 5.3 Copyright and ownership
 
 Unless explicitly stated otherwise, original code, documentation, configuration, designs, graphics, written material, and other original creative work produced for Lokahst.dev projects remain the property of their respective creator and are protected by applicable copyright and intellectual-property laws.
 
@@ -206,14 +132,23 @@ Third-party libraries, APIs, trademarks, assets, and other external materials re
 
 Where a project contains third-party components, those components are not claimed as original Lokahst.dev property.
 
+## 5.4 Links
+
+Use the links below to access official Lokahst.dev resources.
+
+- **Official website:** [lokahst.dev](https://lokahst.dev)
+- **bStats statistics:** [Visit](https://bstats.org/author/lokahst)
+- **Lokahst organisation on github:** [Visit](https://github.com/orgs/Lokahst/repositories)
+- **Discord server:** [Join](https://discord.gg/2NdHTfKaM8)
+
+Additional project downloads, source repositories, support channels, and community links can be added here when their official URLs are available.
+
 ---
 
 # Copyright
 
-**© 2026-Present Lokahst.dev - All rights reserved where applicable.**<br>
-**© 2021-2026 Wejkey - All rights reserved where applicable.**
-
-© 2026 by **Wejkey** under project *Lokahst*.
+Developed by **Wejkey** under project *Lokahst*. 
+*Lokahst* is not individual person; it is the name of the project.
 <br>
 
 *- Wejkey*
