@@ -1,7 +1,7 @@
 ---
 title: Quests
 description: Quest journal, objectives, requirements, and rewards
-updated: October 5, 2026
+updated: October 28, 2026
 ---
 
 The default quest config contains `88` definitions; `50` are enabled for normal play. Disabled entries are not available from the quest journal. Each player can have up to `5` active quests.
@@ -30,7 +30,7 @@ The enabled quests are grouped in the config under these categories:
 - **Fishing:** Fisherman's Catch; Rare Waters
 - **Shouts:** Shout Mastery I, II, and III
 - **Survival:** Survivor I, II, and III
-- **Voice:** Whirlwind Sprint; Unrelenting Force; Battle Cry; Clear Skies; Aura Whisper; Drain Vitality; Become Ethereal; Fire Breath; Storm Call; Dragon Aspect
+- **Voice:** Whirlwind Sprint; Unrelenting Force; Battle Cry; Clear Skies; Aura Whisper; Drain Vitality; Become Ethereal; Fire Breath; Storm Call; Dragon Aspect; Kyne's Peace; Animal Allegiance
 - **Artisan:** Stonework; Iron Miner; Ironworker; Full Arsenal; Fine Craftsmanship; Superior Craftsmanship; Exquisite Craftsmanship; Flawless Craftsmanship; Epic Craftsmanship; Legendary Craftsmanship; Armed to the Teeth; The Smelter; Busy Hands; Armorer; Stonecutter; Deep Delver; Iron Reserves; Master Smith; Seasoned Crafter; Rich Veins; Forged to Perfection; Master of Materials; The Grand Workshop; Legendary Artisan
 
 Quest objectives, requirements, repeatability, and rewards are shown in the journal and are configurable in `quests.yml`.

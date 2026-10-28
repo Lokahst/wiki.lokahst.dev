@@ -1,7 +1,7 @@
 ---
 title: Player Data and Backups
 description: Player files, saves, backups, and migration
-updated: October 5, 2026
+updated: October 28, 2026
 ---
 
 
@@ -35,6 +35,8 @@ Online profiles are copied every `10` minutes. A full backup of stored profiles 
 ## Migration Archives
 
 Old profiles may be copied to `players/backups`. Skill data from before automatic progression can be moved to `players/skill-archives` before it is reset or converted.
+
+Legacy entry creates a separate player snapshot under `plugins/LotN/legacy-snapshots`. The default retention limit is five snapshots per player.
 
 ## Cleanup
 

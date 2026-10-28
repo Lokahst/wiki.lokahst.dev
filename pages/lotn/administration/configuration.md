@@ -1,7 +1,7 @@
 ---
 title: Configuration
 description: Config files, world filters, and reloading
-updated: October 5, 2026
+updated: October 28, 2026
 ---
 
 
@@ -20,7 +20,7 @@ LotN loads `17` YAML config files. Invalid values may be limited, ignored, or re
 | `enchantments.yml` | schema-version, debug, tiers, compatibility, drops, skill-modifiers, armor-caps, physical-damage-causes, immunities, discovery, families, lore, gui, visuals, messages |
 | `equipment.yml` | schema-version, debug, armor, quality, tempering, definitions |
 | `fishing.yml` | schema-version, fishing, rarities, fish, junk, treasures, sell |
-| `mobs.yml` | schema-version, scaling, player-selection, levels, tiers, families, hologram, armor, equipment-profiles, rewards |
+| `mobs.yml` | schema-version, bossbar, scaling, player-selection, levels, tiers, families, hologram, armor, equipment-profiles, rewards |
 | `quests.yml` | schema-version, settings, word-seeking, tier-boundaries, boss-contribution, legacy-scaling, migration, quests |
 | `display.yml` | schema-version, enabled, update-interval-ticks, show-title, show-numbers, title, quest-bar, lines, compass |
 | `skills.yml` | schema-version, legendary, migration, multipliers, debug, item-progression, anti-exploit, notifications, categories, gui, integrations, xp-values, skills |

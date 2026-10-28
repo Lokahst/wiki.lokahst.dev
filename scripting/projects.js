@@ -52,7 +52,6 @@
             { path: "lotn/administration/configuration", title: "Configuration" },
             { path: "lotn/administration/player-data-and-backups", title: "Player Data & Backups" },
             { path: "lotn/administration/placeholders", title: "Placeholders" },
-            { path: "lotn/administration/verified-source-notes", title: "Verified Source Notes" }
           ]
         }
       ]

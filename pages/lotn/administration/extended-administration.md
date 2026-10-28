@@ -1,7 +1,7 @@
 ---
 title: Extended Administration
 description: Tools available in /lotnea
-updated: October 5, 2026
+updated: October 28, 2026
 ---
 
 
@@ -73,6 +73,6 @@ The menu targets the administrator by default. Use the target selector to choose
 
 Reloading LotN is a separate control on the main admin menu.
 
-## Command-Line Administration
+## Command Access
 
-The `/lotn` command also provides `reload`, `inspectmob`, `voiceknowledge`, `legendaryadmin`, `legacyadmin`, `questadmin`, and `bosscontribution` actions. Every `/lotn` action requires `lotn.use`; see [Commands and Permissions](commands-and-permissions.md) for the subcommands and permission nodes.
+The admin menu is opened with `/lotnea`. `/lotn reload` is the only administrator subcommand; other staff management actions are available through this menu. See [Commands and Permissions](commands-and-permissions.md) for the command list and permission nodes.

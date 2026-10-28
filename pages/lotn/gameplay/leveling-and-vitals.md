@@ -1,7 +1,7 @@
 ---
 title: Leveling and Vitals
 description: Character levels, Health, Stamina, and Magicka
-updated: October 5, 2026
+updated: October 28, 2026
 ---
 
 ## Overall Level
@@ -27,6 +27,12 @@ Level-ups to levels `2` through `99` each give one vitality point. Points can be
 | Magicka | 10 |
 
 Vitality points are no longer awarded after reaching overall level `99`, even though overall progression continues up to level `10,000`.
+
+## Legacy
+
+At overall level `100`, an eligible character can begin a Legacy from the Attributes menu. Entering a Legacy resets the character's overall level and skills, and resets inventory items according to the Legacy settings. LOTN creates a snapshot before the reset and increments the Legacy rank.
+
+By default, completed quests, discoveries, Alchemy knowledge, and Legendary skill ranks are retained. Each Legacy rank increases progression requirements and can improve skill power, reward quality, and mob-level contribution, subject to configurable caps.
 
 ## Health Display
 

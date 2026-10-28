@@ -1,7 +1,7 @@
 ---
 title: Mobs and Scaling
 description: Mob levels, tiers, variants, gear, and rewards
-updated: October 5, 2026
+updated: October 28, 2026
 ---
 
 Mob scaling is enabled by default. Registered mobs receive a level, family, variant name, tier, scaled stats, and hologram.
@@ -71,3 +71,7 @@ Tier 4 and higher mobs can spawn with armor. The default profiles use chainmail 
 ## Kill Rewards
 
 Base kill XP is `8.0 + 1.2` per mob level. Tier and other progression multipliers are applied afterward. Farmed mobs give only `0.15x` rewards and do not count toward quests by default.
+
+## Voice Bearers
+
+Voice Bearers are special high-level mobs that can use Unrelenting Force and Fire Breath. By default, they can appear on eligible natural, chunk-generation, patrol, reinforcement, and default spawns at level `80` or higher in Tier `5` or `6`, with a `1.5%` spawn chance. They can unlock a second shout word at level `120` and a third at level `180`. Their shout attacks have a telegraph before they fire.

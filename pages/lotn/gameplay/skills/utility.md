@@ -1,7 +1,7 @@
 ---
 title: Utility Skills
 description: Wayfaring and Trading rewards
-updated: October 5, 2026
+updated: October 28, 2026
 ---
 
 Utility skills cover exploration and trading.
@@ -40,3 +40,5 @@ Buy and sell items through LotN trading systems.
 | 8 | Trusted Customer | Unlock rotating special merchant offers |
 | 9 | Expert Trader | +8% sale value and 3% lower purchase prices |
 | 10 | Master Trader | +10% sale value, 5% lower purchase prices, and master offers |
+
+Rotating merchant offers require the `rotating-merchant-offers` integration in `skills.yml`, which is disabled by default. Unlocking the related Trading reward does not enable that integration.

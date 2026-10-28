@@ -1,12 +1,12 @@
 ---
 title: Installation
 description: Requirements
-updated: October 5, 2026
+updated: October 28, 2026
 ---
 
 ## Server Requirement
 
-Build `1.0.4` (at time of rewriting wiki) requires Java 21 and is compiled against Paper API `1.21.11` or `1.21`.
+LotN `1.0.10` requires Java 21 and is compiled against Paper API `1.21.11`. Use a compatible Paper server.
 
 ## Soft Dependencies
 

@@ -1,7 +1,7 @@
 ---
 title: Shouts
 description: How to unlock, select, and use shouts
-updated: October 5, 2026
+updated: October 28, 2026
 ---
 
 New characters start with `0` unlocked shout words by default. The setting is `framework.default-unlocked-words` in `shouts.yml`. Words can be unlocked through quests or administration; `config.yml` also contains a legacy starting-word setting that is not used for new profiles.
@@ -23,6 +23,8 @@ The two sneak presses must happen within `350` milliseconds. Shouts cannot be us
 | Storm Call | `Strun Bah Qo` | 45 / 55 / 65 | 300 / 600 / 1200s | Starts a storm and strikes nearby enemies.<br>Duration: 20 / 40 / 60s |
 | Aura Whisper | `Laas Yah Nir` | 18 / 24 / 30 | 75 / 120 / 180s | Reveals nearby mobs through walls.<br>Range: 10 / 20 / 30 blocks; duration: 9 / 16 / 25s |
 | Battle Cry | `Kaan Drem Ov` | 35 / 43 / 52 | 180 / 300 / 480s | Forces nearby mobs to stop combat temporarily.<br>Range: 16 / 22 / 30 blocks; duration: 7 / 13 / 20s |
+| Kyne's Peace | `Kaan Drem Ov` | 20 / 27 / 35 | 75 / 105 / 150s | Calms nearby wild animals so they stop targeting and attacking.<br>Range: 12 / 18 / 26 blocks; duration: 6 / 11 / 18s |
+| Animal Allegiance | `Raan Mir Tah` | 26 / 34 / 44 | 100 / 145 / 210s | Calls nearby wild animals to aid you against enemies.<br>Range: 12 / 20 / 30 blocks; duration: 8 / 14 / 22s |
 | Clear Skies | `Lok Vah Koor` | 16 / 20 / 25 | 120 / 180 / 240s | Clears weather and active Storm Call.<br>Clear weather: 300 / 600 / 1200s |
 | Dragon Aspect | `Mul Qah Diiv` | 55 / 65 / 75 | 900 / 1800 / 3600s | Increases worn armor rating by 10 / 16 / 22%.<br>Duration: 120 / 210 / 300s |
 | Drain Vitality | `Gaan Lah Haas` | 28 / 35 / 44 | 34 / 40 / 48s | Damages nearby targets and restores Health; higher words can also restore Stamina.<br>Range: 8 / 10 / 13 blocks; damage: 3 / 5 / 8; duration: 4 / 6.5 / 9.5s |
@@ -33,6 +35,7 @@ Slash-separated values are for the first, second, and third words unlocked for t
 
 - Fire Breath deals only 15% of normal damage to dragons.
 - The third word of Storm Call lasts 60 seconds and attempts strikes every 3 to 6 seconds within 64 blocks.
-- Battle Cry suppresses nearby mob combat for 20 seconds.
+- Kyne's Peace and Battle Cry use the same words, `Kaan Drem Ov`, but have different effects.
 - Dragon Aspect needs at least one worn armor piece.
 - High Elves have 15% longer shout cooldowns.
+- Kyne's Peace affects nearby wild bees, pandas, polar bears, and untamed wolves. Animal Allegiance turns eligible nearby wild animals into temporary allies.
