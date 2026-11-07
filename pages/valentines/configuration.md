@@ -1,14 +1,14 @@
 ---
 title: Configuration
 description: Default settings and messages. If you have any problem with config, you can try this one.
-updated: Oct 18, 2026
+updated: Nov 7, 2026
 ---
 
 :::spoiler config.yml
 ```yml
 # ╔════════════════════════════════════════════════════════════════════╗
 # ║                      VALENTINES PLUGIN CONFIG                      ║
-# ║                       Updated: Oct 18, 2026                        ║
+# ║                        Updated: Nov 7, 2026                        ║
 # ╚════════════════════════════════════════════════════════════════════╝
 
 # ╔════════════════════════════════════════════════════════════════════╗
@@ -144,7 +144,7 @@ placeholderapi:
 # ║                      VERSION CHECKER SETTINGS                      ║
 # ╚════════════════════════════════════════════════════════════════════╝
 
-config-version: "2.0.3"
+config-version: "3.0.0"
 version-checker:
   enabled: true
   check-on-startup: true
@@ -389,7 +389,7 @@ gui:
   age-title: "&dProfile Age"
   age-lore:
     - "&fYour age: &d{age}"
-    - "&7Click to edit (13-99)"
+    - "&7Click to edit (7-99)"
   age-editor-title: "&d❤ &5Age Editor &d❤"
   age-decrease-title: "&c-1 Age"
   age-current-title: "&dCurrent Age: {age}"
