@@ -1,7 +1,7 @@
 ---
 title: Informations
 description: Informations about this project and development
-updated: Oct 18, 2026
+updated: Nov 9, 2026
 ---
 
 # 1. Development informations
@@ -139,7 +139,7 @@ Use the links below to access official Lokahst.dev resources.
 - **Official website:** [lokahst.dev](https://lokahst.dev)
 - **bStats statistics:** [Visit](https://bstats.org/author/lokahst)
 - **Lokahst organisation on github:** [Visit](https://github.com/orgs/Lokahst/repositories)
-- **Discord server:** [Join](https://discord.gg/2NdHTfKaM8)
+- **Discord server:** Not yet
 
 Additional project downloads, source repositories, support channels, and community links can be added here when their official URLs are available.
 
